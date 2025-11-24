@@ -8,7 +8,7 @@ function createCourse():{name:string, price:number}{
     return {name:"Aaquib", price:399}
 }
 
-type User = {
+interface User {
     name:string,
     email:string,
     isActive:boolean
